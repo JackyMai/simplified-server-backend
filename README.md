@@ -2,7 +2,7 @@
 A web site that hosts such things as texts, music, and other such content typically consists of two parts: the client - the bit that users interact with via their web browsers, and the server - the bit that provides the majority of the functionality.
 This implementation will not deal with the content directly, but just with the data about the content, the metadata.
 
-### This implementation has the following functionalities:
+### Functionalities
 1. List all content in the system in visibility order (Public, Friends, Private), and for those with the same visibility, in alphabetical order of title. Use the format [type]:[title] for each content item (do not show the '[' and ']', but do show the ':'). LISTCONTENT
 2. List all members in the system in alphabetical order of name. Use the format [member name]([nickname]) for each member. LISTMEMBERS
 3. For a specified folder, list all content in a specified folder in visibility order (first Public, the Friends, then Private) and for those with the same visibility in alphabetical order of title. Use the format [visibility] [content title]([folder title]) LISTFOLDER:folder title
