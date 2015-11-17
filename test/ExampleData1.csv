@@ -1,0 +1,214 @@
+#Members: MEMBER, name, nickname (tab separated)
+MEMBER	Vincent Damon Furnier	Alice Cooper
+MEMBER	William Bruce Rose, Jr.	Axl Rose
+MEMBER	Beyonce Giselle Knowles	Beyonce
+MEMBER	Eleanora Gough Fagan	Billie Holiday
+MEMBER	William Michael Albert Broad	Billy Idol
+MEMBER	William Martin Joel	Billy Joel
+MEMBER	Ellas Otha Bates	Bo Diddley
+MEMBER	Robert Allen Zimmerman	Bob Dylan
+MEMBER	Robert Nesta Marley	Bob Marley
+MEMBER	Paul David Hewson	Bono
+MEMBER	Charles Edward Anderson Berry	Chuck Berry
+MEMBER	Diane Ernestine Ross	Diana Ross
+MEMBER	LaDonna Andrea Gaines	Donna Summer
+MEMBER	Reginald Kenneth Dwight	Elton John
+MEMBER	Declan Patrick MacManus	Elvis Costello
+MEMBER	Jamesetta Hawkins	Etta James
+MEMBER	Farrokh Bulsara	Freddie Mercury
+MEMBER	Chaim Weitz	Gene Simmons
+MEMBER	Gloria Fowles	Gloria Gaynor
+MEMBER	Chester Arthur Burnett	Howlin' Wolf
+MEMBER	Henry John Deutschendorf, Jr.	John Denver
+MEMBER	John Joseph Lydon	Johnny Rotten
+MEMBER	Kimbra Lee Johnson	Kimbra
+MEMBER	Ella Maria Lani Yelich-O'Connor	Lorde
+MEMBER	Stanley Kirk Burrell	MC Hammer
+MEMBER	Brian Hugh Warner	Marilyn Manson
+MEMBER	Marvin Lee Aday	Meat Loaf
+MEMBER	McKinley Morganfield	Muddy Waters
+MEMBER	John Micheal Osbourne	Ozzy Osbourne
+MEMBER	Patricia Mae Andrejewski	Pat Benatar
+MEMBER	Prince Rogers Nelson	Prince
+MEMBER	Richard Starkey	Ringo Starr
+MEMBER	Eilleen Regina Edwards	Shania Twain
+MEMBER	John Simon Ritchie	Sid Vicious
+MEMBER	Cordozar Calvin Broadus, Jr.	Snoop Dogg
+MEMBER	Stevland Hardaway Judkins	Stevie Wonder
+MEMBER	Gordon Matthew Thomas Sumner	Sting
+MEMBER	Henry St. Clair Fredericks	Taj Mahal
+MEMBER	David Howell Evans	The Edge
+MEMBER	Anna Mae Bullock	Tina Turner
+MEMBER	Kathryn Dawn Lang	k.d. lang
+#Friends: FRIEND, name, friend (tab separated, multiple lines for multiple
+#friends)
+FRIEND	Stanley Kirk Burrell	Vincent Damon Furnier
+FRIEND	Eleanora Gough Fagan	Vincent Damon Furnier
+FRIEND	Eleanora Gough Fagan	Patricia Mae Andrejewski
+FRIEND	Eleanora Gough Fagan	Stanley Kirk Burrell
+FRIEND	Robert Nesta Marley	Vincent Damon Furnier
+FRIEND	Robert Nesta Marley	Eleanora Gough Fagan
+FRIEND	Patricia Mae Andrejewski	Vincent Damon Furnier
+FRIEND	Reginald Kenneth Dwight	Vincent Damon Furnier
+FRIEND	Reginald Kenneth Dwight	Henry St. Clair Fredericks
+FRIEND	Reginald Kenneth Dwight	Declan Patrick MacManus
+FRIEND	Jamesetta Hawkins	Vincent Damon Furnier
+FRIEND	Jamesetta Hawkins	Paul David Hewson
+FRIEND	Jamesetta Hawkins	Patricia Mae Andrejewski
+FRIEND	Henry St. Clair Fredericks	Vincent Damon Furnier
+FRIEND	Henry St. Clair Fredericks	Robert Nesta Marley
+FRIEND	Henry St. Clair Fredericks	Stevland Hardaway Judkins
+FRIEND	Henry St. Clair Fredericks	Jamesetta Hawkins
+FRIEND	Eilleen Regina Edwards	Vincent Damon Furnier
+FRIEND	Eilleen Regina Edwards	Kimbra Lee Johnson
+FRIEND	Declan Patrick MacManus	Anna Mae Bullock
+FRIEND	Declan Patrick MacManus	Vincent Damon Furnier
+FRIEND	Declan Patrick MacManus	David Howell Evans
+FRIEND	Anna Mae Bullock	Vincent Damon Furnier
+FRIEND	Anna Mae Bullock	Beyonce Giselle Knowles
+FRIEND	Vincent Damon Furnier	William Bruce Rose, Jr.
+FRIEND	William Bruce Rose, Jr.	Brian Hugh Warner
+FRIEND	Beyonce Giselle Knowles	Charles Edward Anderson Berry
+FRIEND	Beyonce Giselle Knowles	McKinley Morganfield
+FRIEND	Beyonce Giselle Knowles	John Micheal Osbourne
+FRIEND	Beyonce Giselle Knowles	Prince Rogers Nelson
+FRIEND	William Michael Albert Broad	Paul David Hewson
+FRIEND	William Martin Joel	Robert Allen Zimmerman
+FRIEND	William Martin Joel	Gloria Fowles
+FRIEND	William Martin Joel	Henry John Deutschendorf, Jr.
+FRIEND	William Martin Joel	Patricia Mae Andrejewski
+FRIEND	William Martin Joel	Vincent Damon Furnier
+FRIEND	Robert Allen Zimmerman	Chester Arthur Burnett
+FRIEND	Paul David Hewson	Vincent Damon Furnier
+FRIEND	Charles Edward Anderson Berry	Vincent Damon Furnier
+FRIEND	Charles Edward Anderson Berry	William Martin Joel
+FRIEND	Charles Edward Anderson Berry	Chester Arthur Burnett
+FRIEND	Farrokh Bulsara	William Michael Albert Broad
+FRIEND	Farrokh Bulsara	Vincent Damon Furnier
+FRIEND	Farrokh Bulsara	LaDonna Andrea Gaines
+FRIEND	Farrokh Bulsara	Cordozar Calvin Broadus, Jr.
+FRIEND	Chaim Weitz	Henry John Deutschendorf, Jr.
+FRIEND	Chester Arthur Burnett	David Howell Evans
+FRIEND	Henry John Deutschendorf, Jr.	William Bruce Rose, Jr.
+FRIEND	Henry John Deutschendorf, Jr.	Ellas Otha Bates
+FRIEND	Henry John Deutschendorf, Jr.	Farrokh Bulsara
+FRIEND	Henry John Deutschendorf, Jr.	Marvin Lee Aday
+FRIEND	Henry John Deutschendorf, Jr.	Vincent Damon Furnier
+FRIEND	John Joseph Lydon	Gordon Matthew Thomas Sumner
+FRIEND	Brian Hugh Warner	John Simon Ritchie
+FRIEND	Marvin Lee Aday	John Joseph Lydon
+FRIEND	John Micheal Osbourne	William Michael Albert Broad
+FRIEND	John Micheal Osbourne	Chaim Weitz
+FRIEND	John Micheal Osbourne	John Simon Ritchie
+FRIEND	John Micheal Osbourne	Gordon Matthew Thomas Sumner
+FRIEND	John Micheal Osbourne	Vincent Damon Furnier
+FRIEND	Prince Rogers Nelson	Cordozar Calvin Broadus, Jr.
+FRIEND	Richard Starkey	Ellas Otha Bates
+FRIEND	John Simon Ritchie	Chaim Weitz
+FRIEND	Cordozar Calvin Broadus, Jr.	Richard Starkey
+FRIEND	Gordon Matthew Thomas Sumner	Robert Allen Zimmerman
+FRIEND	David Howell Evans	Prince Rogers Nelson
+FRIEND	David Howell Evans	Vincent Damon Furnier
+#Content: content type, owner name, title, visibility, comma-separated tags (tab separated)
+#content type: TEXT or MUSIC
+TEXT	Farrokh Bulsara	Cat in Hat	Public	cat,hat
+MUSIC	William Martin Joel	Frozen	Public	disney,ice
+TEXT	Prince Rogers Nelson	Hills	Public	landscapes
+TEXT	Chaim Weitz	Mountains	Public	landscapes
+MUSIC	Paul David Hewson	Jam session	Public	music
+MUSIC	Cordozar Calvin Broadus, Jr.	Let it Go	Public	music
+TEXT		Lunch today	Public	sandwitch
+TEXT	Eilleen Regina Edwards	Lunch@Cafe	Public	sandwitch
+TEXT	William Michael Albert Broad	Lunch@Freds	Public	sushi
+MUSIC	William Martin Joel	Pentatonix	Public	music
+MUSIC	LaDonna Andrea Gaines	Pirates of the Carribean	Public	disney
+TEXT	Stevland Hardaway Judkins	Selfie@Ocean	Public	selfies
+TEXT	Reginald Kenneth Dwight	Selfie@Annies	Public	selfies
+TEXT	Reginald Kenneth Dwight	Selfie@Daves	Public	selfies
+TEXT	Reginald Kenneth Dwight	Selfie@Freds	Public	selfies
+TEXT	Stevland Hardaway Judkins	Selfie@Lake	Public	selfies
+TEXT	Reginald Kenneth Dwight	Selfie@Jakes	Public	selfies
+TEXT	Patricia Mae Andrejewski	Selfie@Park	Public	selfies
+TEXT	Richard Starkey	Selfie@Apple Records	Public	selfies
+TEXT	Reginald Kenneth Dwight	Selfie@Xannahs	Public	selfies
+TEXT	Robert Allen Zimmerman	Sunrise	Public	landscapes
+TEXT	Prince Rogers Nelson	Sunset	Public	landscapes
+TEXT	LaDonna Andrea Gaines	Fluffy Bunnies	Friends	landscapes
+MUSIC	William Michael Albert Broad	Great Sushi	Friends	sushi
+MUSIC	William Michael Albert Broad	Mary Joseph	Friends	joseph,mary,party
+TEXT	Paul David Hewson	House contract	Private	contract
+MUSIC		Lilo & Stitch	Private	disney
+TEXT	Prince Rogers Nelson	Oceans	Private	landscapes
+MUSIC	David Howell Evans	Tangled	Private	disney
+TEXT	John Joseph Lydon	Match vs. Eagles	Friends	footy,2014
+MUSIC	Brian Hugh Warner	Anne's 5th birthday candles	Public	birthday,anne
+TEXT		Miss Clawdy Kitchen	Private	reviews
+TEXT	John Joseph Lydon	Match vs. Blues	Friends	footy,2014
+TEXT	John Joseph Lydon	Match vs. Phoenix	Friends	footy,2014
+TEXT	John Joseph Lydon	Match vs. Black caps	Friends	footy,2014
+TEXT	Anna Mae Bullock	Brendan!	Private	cricket,2014
+MUSIC	John Micheal Osbourne	2013 Tourney	Public	tourney,2013
+TEXT		Best Ugly Bagels	Private	reviews
+TEXT	William Bruce Rose, Jr.	Cheetah	Private	zoo,cats
+TEXT	William Bruce Rose, Jr.	Tiger	Private	zoo,cats
+TEXT	William Bruce Rose, Jr.	Lion	Private	zoo,cats
+TEXT	William Bruce Rose, Jr.	Bear	Private	zoo
+TEXT	William Bruce Rose, Jr.	Meerkat	Private	zoo
+TEXT	William Bruce Rose, Jr.	African crested porcupine	Private	auckland zoo
+TEXT	William Bruce Rose, Jr.	Blue and yellow macaw	Private	auckland zoo,birds
+TEXT	William Bruce Rose, Jr.	Brolga	Private	auckland zoo,birds
+TEXT	William Bruce Rose, Jr.	Dragon	Private	auckland zoo,birds
+MUSIC	Beyonce Giselle Knowles	New Dance	Private	practice
+MUSIC	Beyonce Giselle Knowles	Dance take 2	Private	practice
+TEXT	Charles Edward Anderson Berry	Take off	Private	flights
+TEXT	Robert Nesta Marley	Crop #34	Private	garden
+TEXT	Ellas Otha Bates	Golden lion tamarin	Private	zoo
+TEXT	Jamesetta Hawkins	Hamadryas baboon	Public	zoo,monkey
+TEXT	Gloria Fowles	New Zealand dotterel	Public	New Zealand zoo
+TEXT	Chester Arthur Burnett	Lion Tamer	Public	circus
+TEXT		Botswana Butchery	Private	reviews
+TEXT	John Simon Ritchie	Trapeze	Public	circus
+TEXT	Kathryn Dawn Lang	Acrobats	Private	circus
+TEXT	McKinley Morganfield	Clowns on bikes	Public	circus,clowns
+MUSIC	Stanley Kirk Burrell	Barrel stunt	Public	clowns
+MUSIC	Marvin Lee Aday	Ladder stunt	Public	clowns
+MUSIC	Henry St. Clair Fredericks	Cycle stunt	Friends	clowns,stunts
+TEXT		Orleans	Private	reviews
+#This has no tags
+TEXT	Kimbra Lee Johnson	Flowers	Public	
+#Folders: FOLDER, owner, folder name, content title (tab separated)
+FOLDER	William Michael Albert Broad	Friday Party	Mary Joseph
+FOLDER	William Michael Albert Broad	Food	Lunch@Freds
+FOLDER	William Michael Albert Broad	Food	Great Sushi
+FOLDER	Reginald Kenneth Dwight	Selfies	Selfie@Annies
+FOLDER	Reginald Kenneth Dwight	Selfies	Selfie@Jakes
+FOLDER	Reginald Kenneth Dwight	Selfies	Selfie@Daves
+FOLDER	Reginald Kenneth Dwight	Selfies	Selfie@Xannahs
+FOLDER	Reginald Kenneth Dwight	Selfies	Selfie@Freds
+FOLDER	Prince Rogers Nelson	Landscape Photos	Oceans
+FOLDER	Prince Rogers Nelson	Landscape Photos	Sunset
+FOLDER	Robert Allen Zimmerman	Bob's Landscapes Photos	Sunrise
+FOLDER	LaDonna Andrea Gaines	Bunnies Photos	Fluffy Bunnies
+FOLDER	Prince Rogers Nelson	Landscape Photos	Hills
+FOLDER	John Joseph Lydon	Footy	Match vs. Eagles
+FOLDER	John Joseph Lydon	Footy	Match vs. Phoenix
+FOLDER	John Joseph Lydon	Footy	Match vs. Black caps
+FOLDER	John Joseph Lydon	Footy	Match vs. Blues
+FOLDER	William Bruce Rose, Jr.	Zoo	Cheetah
+FOLDER	William Bruce Rose, Jr.	Zoo	Tiger
+FOLDER	William Bruce Rose, Jr.	Zoo	Lion
+FOLDER	William Bruce Rose, Jr.	Zoo	Bear
+FOLDER	William Bruce Rose, Jr.	Zoo	Meerkat
+FOLDER	William Bruce Rose, Jr.	Zoo	African crested porcupine
+FOLDER	William Bruce Rose, Jr.	Zoo	Blue and yellow macaw
+FOLDER	William Bruce Rose, Jr.	Zoo	Brolga
+FOLDER	William Bruce Rose, Jr.	Zoo	Dragon
+FOLDER	William Bruce Rose, Jr.	Cats	Cheetah
+FOLDER	William Bruce Rose, Jr.	Cats	Tiger
+FOLDER	William Bruce Rose, Jr.	Cats	Lion
+FOLDER	William Bruce Rose, Jr.	Birds	Blue and yellow macaw
+FOLDER	William Bruce Rose, Jr.	Birds	Brolga
+FOLDER	Stevland Hardaway Judkins	MySelfies	Selfie@Ocean
+FOLDER	Stevland Hardaway Judkins	MySelfies	Selfie@Lake
+FOLDER	Beyonce Giselle Knowles	Dances	Dance take 2
+FOLDER	Beyonce Giselle Knowles	Dances	New Dance

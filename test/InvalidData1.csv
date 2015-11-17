@@ -1,0 +1,76 @@
+#Members: MEMBER, name, nickname (tab separated)
+MEMBER	Farrokh Bulsara	Freddie Mercury
+MEMBER	William Michael Albert Broad	Billy Idol
+MEMBER	Paul David Hewson	Bono
+#> duplicate name
+MEMBER	Paul David Hewson	Paul Hewson
+#> Invalid format, missing field
+MEMBER	Name
+#> Invalid format, empty value (empty nickname is ok)
+MEMBER		Nickname
+#> Too many fields
+MEMBER	Name	Nickname	Auckland
+#Friends: FRIEND, name, friend (tab separated, multiple lines for multiple 
+#friends)
+FRIEND	Farrokh Bulsara	William Michael Albert Broad
+#> Missing field
+FRIEND	Farrokh Bulsara
+#> Missing value
+FRIEND	Farrokh Bulsara	
+#> Duplicate
+FRIEND	Farrokh Bulsara	William Michael Albert Broad
+#> No such friend
+FRIEND	Farrokh Bulsara	William Bruce Rose, Jr
+#> Friend with self
+FRIEND	Paul David Hewson	Paul David Hewson
+#> No such member
+FRIEND	John Simon Ritchie	William Michael Albert Broad
+#> Too many fields
+FRIEND	Farrokh Bulsara	William Michael Albert Broad	Anything
+#Content: content type, title, visibility, comma-separated tags (tab separated)
+#content type: TEXT or MUSIC
+TEXT	Farrokh Bulsara	Cat in Hat	Public	cat,hat
+#> Member does not exist
+TEXT	Eilleen Regina Edwards	Lunch@Cafe	Public	sandwitch
+TEXT	Paul David Hewson	Lunch@Freds	Public	sushi
+MUSIC	William Michael Albert Broad	Great Sushi	Friends	sushi
+TEXT		Lunch today	Public	sandwitch
+#> duplicate content (albeit with different type)
+MUSIC		Lunch today	Public	sandwitch
+TEXT	Paul David Hewson	House contract	Private	contract
+#> duplicate content
+TEXT	William Michael Albert Broad	House contract	Private	contract
+MUSIC	William Michael Albert Broad	Mary Joseph	Friends	party,mary,joseph
+#> missing fields music
+MUSIC	William Michael Albert Broad	Mary Joseph	party,mary,joseph
+#> missing fields text
+TEXT	William Michael Albert Broad	Mary Joseph	Public
+#> blank line
+
+#> Too many fields
+TEXT	William Bruce Rose, Jr.	Lion	Private	Auckland zoo	zoo,cats
+MUSIC 	Beyonce Giselle Knowles	New Dance	Private	practice	Anything
+#Folders: FOLDER, folder name, content title (tab separated)
+FOLDER	William Michael Albert Broad	Friday Party	Mary Joseph
+#> Duplicate folder
+FOLDER	Paul David Hewson	Friday Party	Lunch@Freds
+#> Invalid value
+FOLDER	William Michael Albert Broad		Mary Joseph
+#> Missing field
+FOLDER	Friday Party	Mary Joseph
+FOLDER	William Michael Albert Broad	Food	Great Sushi
+#> No such member to have folder
+FOLDER	Jamesetta Hawkins	Food	Lunch today
+#> No such content to go in folder
+FOLDER	William Michael Albert Broad	Food	Hello World
+#> Too many fields
+FOLDER	Farrokh Bulsara	Stories	Cat in Hat	Anything
+#> Not owner
+FOLDER	William Michael Albert Broad	Stories	Cat in Hat
+#> rubbish
+RUBBISH	Invalid Input
+#> blank line
+
+# Notes
+# Multiple owners not possible - shows up as duplicate content
+# 
