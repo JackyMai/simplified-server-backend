@@ -20,7 +20,6 @@ command_line_prompt> java -jar <runnablejarfile> <datafile> <command>
 The test/ folder contains two .csv data files as an example.
 
 ### Input Format
-The input consists of 4 sections in the following order:
 1. Members. This section lists all the members. Information for each member is on one line. The line consists of three fields. The first field is the string MEMBER, the second is the member's name, and the third is the member's nickname. No two members can have the same name (that is, names must be unique), but they can have the same nickname. The fields are separated by a single tab character.
 2. Friends. This lists all the friends of a member. Each line consists of the 3 fields; the string FRIEND, the name of the member, and the name of the friend, again tab separated. If a member has multiple friends, then there will be multiple lines for that member.
 3. Content. This lists all the content. Each line consists of 5 fields. The first field indicates the type of the content, either TEXT or MUSIC. The next field is the name of the owner. Field 3 is the name of the content, which must be unique. Field 4 is the visibility of the content, one of Public, Friends, or Private. Field 5 is a comma-separated list of tags.
