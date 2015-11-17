@@ -10,14 +10,16 @@ public class FriendController{
 	}
 	
 	public boolean checkValidity(String[] parts, int lineNumber) {
-		String name = parts[1];
-		String friend = parts[2];
-		
 		if(parts.length < 3) {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": invalid format, missing field");
 		} else if(parts.length > 3) {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": invalid format, too many fields");
-		} else if(!memberCtrl.containsName(name)) {
+		} 
+		
+		String name = parts[1];
+		String friend = parts[2];
+		
+		if(!memberCtrl.containsName(name)) {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": no such member");
 		} else if(!memberCtrl.containsName(friend)) {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": no such friend");

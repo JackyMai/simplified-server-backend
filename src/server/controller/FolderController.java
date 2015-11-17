@@ -19,6 +19,12 @@ public class FolderController {
 	}
 	
 	public boolean checkValidity(String[] parts, int lineNumber) {
+		if(parts.length < 4) {
+			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": invalid format, missing fields");
+		} else if(parts.length > 4) {
+			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": too many fields");
+		}
+		
 		String owner = parts[1];
 		String name = parts[2];
 		String content = parts[3];
@@ -35,10 +41,6 @@ public class FolderController {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": no such content to go in folder");
 		} else if(!contentCtrl.checkOwner(owner, content)) {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": user is not the owner of the content");
-		} else if(parts.length < 4) {
-			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": invalid format, missing fields");
-		} else if(parts.length > 4) {
-			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": too many fields");
 		}
 		
 		return true;

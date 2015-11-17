@@ -14,13 +14,15 @@ public class MemberController {
 	}
 	
 	public boolean checkValidity(String[] parts, int lineNumber) {
-		String name = parts[1];
-		
 		if(parts.length < 3) {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": invalid format, missing field");
 		} else if(parts.length > 3) {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": invalid format, too many fields");
-		} else if(name.equals("")) {
+		}
+		
+		String name = parts[1];
+		
+		if(name.equals("")) {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": invalid format, empty member name");
 		} else if(containsName(name)) {
 			throw new IllegalArgumentException("ERROR at line " + lineNumber + ": duplicate member name");
